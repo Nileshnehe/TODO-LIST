@@ -1,0 +1,48 @@
+.tabs-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.tabs-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.tabs-list li {
+    min-width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-inline: 10px;
+    padding-block: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.25s ease, color 0.25s ease, transform 0.1s ease;
+}
+
+.tabs-list li:hover {
+    background-color: #101010;
+    color: #ffffff;
+}
+
+.tabs-list li:active {
+    transform: scale(0.95);
+   
+}
+
+.tabs-list li.active{
+     background-color: #101010;
+    color: #ffffff;
+}
