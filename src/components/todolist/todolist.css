@@ -1,0 +1,44 @@
+.list-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.list-items {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    font-size: 16px;
+}
+
+.list-item svg {
+    height: 22px;
+    width: 22px;
+    cursor: pointer;
+}
+
+.list-title{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+
+.list-task {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
