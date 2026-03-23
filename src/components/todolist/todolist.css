@@ -41,4 +41,24 @@ gap: 10px;
     align-items: center;
     gap: 10px;
 }
+.tooltip-wrapper {
+  position: relative;
+}
 
+.tooltip-text {
+  display: none;
+  position: absolute;
+  bottom: -28px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.tooltip-wrapper:hover .tooltip-text {
+  display: block;   
+}
